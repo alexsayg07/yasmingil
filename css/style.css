@@ -122,6 +122,9 @@ body {
   margin-bottom: 0.1rem;
   display: none;
 }
+.hidden {
+  display: none;
+}
 
 .bar {
   display: block;

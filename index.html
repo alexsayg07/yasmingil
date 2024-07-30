@@ -17,34 +17,34 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="assets/favicon/apple-touch-icon.png"
+      href="assets/logo.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/assets/favicon/favicon-16x16.png"
+      href="assets/logo.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="assets/favicon/favicon-32x32.png"
+      href="assets/logo.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="192x192"
-      href="assets/favicon/android-chrome-192x192.png"
+      href="assets/logo.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="512x512"
-      href="assets/favicon/android-chrome-512x512.png"
+      href="assets/logo.png"
     />
-    <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico" />
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
+    <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+    <link rel="manifest" href="assets/logo.png" />
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -61,15 +61,14 @@
         <div class="container">
           <!-- Logo -->
           <h1 id="logo">
-            <a href="https://github.com/CommunityPro/portfolio-html"
-              ><img src="./assets/logo.png" alt="Your Logo"
+            <a><img src="./assets/logo.png" alt="Your Logo"
             /></a>
           </h1>
           <!-- Navbar links -->
           <ul class="nav-menu">
-            <li><a class="nav-link" href="#projects">PROJECTS</a></li>
-            <li><a class="nav-link" href="#">CONTACT</a></li>
-            <li><a class="nav-link" href="#">BlOG</a></li>
+            <!-- <li><a class="nav-link" href="#projects">PROJECTS</a></li> -->
+            <li><a class="nav-link" href="mailto:yasmin@alexsaamano.com">CONTACT</a></li>
+            <li><a class="nav-link" href="https://yasmingil.notion.site/Yasmin-Gil-9f7738b42b494d3590b4209d6c99d6ef">BlOG</a></li>
             <li>
               <a
                 class="nav-link btn btn-primary"
@@ -106,7 +105,7 @@
 
         <div class="content-text">
           <h2>Building startups,</h2>
-          <h2>analyzing data, and creative.</h2>
+          <h2>analyzing data, and rollerskating.</h2>
 
           <p>
             A data engineer with a BS in Applied and Computational Mathematics
@@ -124,14 +123,14 @@
     </header>
 
     <!-- Projects -->
-    <section id="projects" class="project-container container">
+    <section id="projects" class="project-container container hidden">
       <div class="division"></div>
       <div class="content-text">
         <h2>Projects</h2>
-        <p>Check out some of my personal and paid projects</p>
+        <p>Projects to be displayed</p>
       </div>
 
-      <article class="project">
+      <article class="project" style="display: none">
         <!-- Project 1 -->
         <div href="" class="card">
           <div class="project-info">
@@ -223,16 +222,16 @@
         </div>
       </article>
 
-      <a href="#" class="btn btn-secondary"
+      <!-- <a href="#" class="btn btn-secondary"
         target="_blank" >See More <i class="fas fa-arrow-right"></i
-      ></a>
+      ></a> -->
     </section>
 
     <footer id="footer">
       <div class="container">
-        <a href="mailto:communitypro47@gmail.com">communitypro47@gmail.com</a>
+        <a href="mailto:yasmin@alexsaamano.com">yasmin@alexsaamano.com</a>
         <!-- Social links -->
-        <div class="social">
+        <!-- <div class="social">
           <a href="#" target="_blank"
             ><img src="./assets/facebook-icon.svg" alt="Facebook"
           /></a>
@@ -244,22 +243,11 @@
           <a href="#" target="_blank"
             ><img src="./assets/hashnode-icon.svg" alt="Hashnode"
           /></a>
-        </div>
+        </div> -->
         <!-- Attribution -->
         <div class="attribution">
-          <a
-            href="https://github.com/CommunityPro/portfolio-html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://user-images.githubusercontent.com/62628408/157202263-9174da24-b19a-4017-9b7c-a1d26ae8f014.svg"
-              alt="attribution"
-              width="150px"
-            />
-          </a>
+          <p>Copyright &copy; YasminGil <span id="datee"></span>, All rights reserved</p>
         </div>
-        <p>Copyright &copy; Communitypro <span id="datee"></span>, All rights reserved</p>
       </div>
     </footer>
     <script src="js/script.js"></script>
